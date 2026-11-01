@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin: 30px;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.badge {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.intro::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #555;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 3px solid #999;
+    padding-left: 15px;
+    margin-left: 0;
+}
